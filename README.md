@@ -16,3 +16,5 @@ Querying multiple SNPs in genomic databases
 
 - Here we are taking the advantage of the GWAS Catalog API to automatically query the SNPs to find the corresponding associated traits (14-Feb-2023).
 
+- Having got a try to an R package, switched to REST API on python and store the lokik-up results in am dataframe. Still some manipulations needed to save the reported trait in the summary results using the study info or url (17-Feb-2023).
+
