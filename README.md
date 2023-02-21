@@ -18,11 +18,11 @@ Querying multiple SNPs in genomic databases
 
 - Having got a try to an R package, switched to REST API on python and store the look-up results in am dataframe. Still some manipulations needed to save the reported trait in the summary results using the study info or url (17-Feb-2023).
 
-- Using the __GWAS Catalog rest API__ we qureried the variants on  __GC__  summary statistics. The most recent update made to the website was on 15-Feb-23 as it was mentioned on the (home page)[https://www.ebi.ac.uk/gwas/home] of their website that: "As of 2023-02-15, the GWAS Catalog contains 6263 publications, 487213 top associations and 55244 full summary statistics." Wow!! The last recent added study dates back to 19-Jan-2023 when the Miyazawa K. summary results was added (PubMed id = 36653681). More info on the recnlty added studies (here)[https://www.ebi.ac.uk/gwas/downloads/summary-statistics] We did the interrogation of our variants on 18-Feb-2023, though.
+- Using the __GWAS Catalog rest API__ we qureried the variants on  __GC__  summary statistics. The most recent update made to the website was on 15-Feb-23 as it was mentioned on the [home page](https://www.ebi.ac.uk/gwas/home) of their website that: "As of 2023-02-15, the GWAS Catalog contains 6263 publications, 487213 top associations and 55244 full summary statistics." Wow!! The last recent added study dates back to 19-Jan-2023 when the Miyazawa K et al. summary results was added (PubMed id = 36653681). More info on the recnlty added studies [here](https://www.ebi.ac.uk/gwas/downloads/summary-statistics) We did the interrogation of our variants on 18-Feb-2023, though.
 
 - After merging the __GC__ and previous __PS__ variants look-up results, we figured out we still miss the important information of the associations (Beta, SE) for some of the studies (19-Feb-23). 
 
-- So we diecided to query the variants using __PW__ commandline tool which mosttly contains the summary ststistics of GWAS studies done on UKBB data (19-Feb-23).
+- So we diecided to query the variants using __PW__ commandline tool which mostly contains the summary ststistics of GWAS studies done on UKBB data (19-Feb-23).
 
 - I encountered with some errors in installation of __PW__ in my directory on Eurac servers. Let's find the solution later to install it properly. Until then, the priority is first finishing the missing info in the merged __PS + GC__ summary results and merge it with step 3 of the mediation analysis. DO NOT forget to align the risk allele for each assoication results before using it for merging or even after for merging with step 3 results of the paper (21-Feb-23).
 
