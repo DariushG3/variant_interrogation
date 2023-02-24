@@ -1,0 +1,82 @@
+{
+  "initialSampleSize" : "372 Japanese ancestry cases,3,389 Japanese ancestry controls",
+  "gxe" : false,
+  "gxg" : false,
+  "snpCount" : 4929034,
+  "qualifier" : null,
+  "imputed" : true,
+  "pooled" : false,
+  "studyDesignComment" : null,
+  "accessionId" : "GCST001785",
+  "fullPvalueSet" : false,
+  "userRequested" : false,
+  "platforms" : [ {
+    "manufacturer" : "Illumina"
+  } ],
+  "ancestries" : [ {
+    "type" : "initial",
+    "numberOfIndividuals" : 3761,
+    "ancestralGroups" : [ {
+      "ancestralGroup" : "East Asian"
+    } ],
+    "countryOfOrigin" : [ ],
+    "countryOfRecruitment" : [ {
+      "majorArea" : "Asia",
+      "region" : "Eastern Asia",
+      "countryName" : "Japan"
+    } ]
+  }, {
+    "type" : "replication",
+    "numberOfIndividuals" : 16951,
+    "ancestralGroups" : [ {
+      "ancestralGroup" : "East Asian"
+    } ],
+    "countryOfOrigin" : [ ],
+    "countryOfRecruitment" : [ {
+      "majorArea" : "Asia",
+      "region" : "Eastern Asia",
+      "countryName" : "Japan"
+    } ]
+  } ],
+  "diseaseTrait" : {
+    "trait" : "Crohn's disease"
+  },
+  "genotypingTechnologies" : [ {
+    "genotypingTechnology" : "Genome-wide genotyping array"
+  } ],
+  "replicationSampleSize" : "Up to 1,151 Japanese ancestry cases, up to 15,800 Japanese ancestry controls",
+  "publicationInfo" : {
+    "pubmedId" : "23266558",
+    "publicationDate" : "2012-12-21",
+    "publication" : "Gastroenterology",
+    "title" : "A genome-wide association study identifies 2 susceptibility Loci for Crohn's disease in a Japanese population.",
+    "author" : {
+      "fullname" : "Yamazaki K",
+      "orcid" : null
+    }
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST001785"
+    },
+    "study" : {
+      "href" : "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST001785{?projection}",
+      "templated" : true
+    },
+    "associationsByStudySummary" : {
+      "href" : "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST001785/associations?projection=associationByStudy"
+    },
+    "efoTraits" : {
+      "href" : "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST001785/efoTraits"
+    },
+    "backgroundEfoTraits" : {
+      "href" : "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST001785/backgroundEfoTraits"
+    },
+    "associations" : {
+      "href" : "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST001785/associations"
+    },
+    "snps" : {
+      "href" : "https://www.ebi.ac.uk/gwas/rest/api/studies/GCST001785/snps"
+    }
+  }
+}
