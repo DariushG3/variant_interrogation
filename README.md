@@ -33,3 +33,4 @@ Querying multiple SNPs in genomic databases
 - The ancestry information of each study was retreived after parsing the json output file and then was added to the summary resuts file in csv format (24-Feb-23).
 
 - PI found more associated traits with variants; needs to be checked (28-Feb-23).
+- Engaged to the secondment at AstraZeneca (02-Mar-23).
