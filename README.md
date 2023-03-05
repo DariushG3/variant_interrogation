@@ -34,3 +34,8 @@ Querying multiple SNPs in genomic databases
 
 - PI found more associated traits with variants; needs to be checked (28-Feb-23).
 - Engaged to the secondment at AstraZeneca (02-Mar-23).
+- PMID: 20700443 -> Variant at SHROOM3 locus in GWAS Catalog had discordant effect allele from the reported in the paper. As the effect allele unintentionally was similar to EA in CHRIS, we just changed the direction of the association.
+- PMID: 31015462 -> Variants at STC1 and PIP5K1B in GWAS Catalog despite having concordant effect allele with CHRIS, had positive effect on SCr. We changed the association direction to negative exactly like the reported in the suppl. data 12 in their paper.
+- PMID: 33356394 -> The variant at DDX1 and PIP5K1B had also discordant allele from the reported restults in their suppl. file.
+
+
