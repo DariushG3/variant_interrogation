@@ -38,4 +38,4 @@ Querying multiple SNPs in genomic databases
 - PMID: 31015462 -> Variants at STC1 and PIP5K1B in GWAS Catalog despite having concordant effect allele with CHRIS, had positive effect on SCr. We changed the association direction to negative exactly like the reported in the suppl. data 12 in their paper.
 - PMID: 33356394 -> The variant at DDX1 and PIP5K1B had also discordant allele from the reported restults in their suppl. file.
 
-
+- Each interrogated study with discordant effect allele were fully addressed and at the end the effect alleles were aligned and associations turned out to be consistent. Finally, the consistent interrogation results (step 3b) merged with step 3 of the mediation analysis and the results is ready to be embeded into the paper's supplementary tables. **Note that** before merging it with the entire mediation analysis steps and replace it with ST4, **we need to drop the step 3b associations which had not had an outlier effect in step 2 when we adjust them for the traits (06-Mar-23)**.
